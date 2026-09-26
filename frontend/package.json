@@ -1,0 +1,68 @@
+{
+  "name": "odyssey-frontend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit",
+    "e2e": "playwright test",
+    "e2e:headed": "playwright test --headed",
+    "e2e:ui": "playwright test --ui",
+    "e2e:debug": "PWDEBUG=1 playwright test"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "road-trip",
+    "ai",
+    "aws"
+  ],
+  "author": "Shane Hobson",
+  "license": "MIT",
+  "description": "Odyssey web app: AI road-trip planner (React 19 + Vite)",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@tailwindcss/postcss": "^4.1.17",
+    "@tanstack/react-query-devtools": "^5.90.2",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/leaflet": "^1.9.21",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "^5.1.0",
+    "autoprefixer": "^10.4.21",
+    "dotenv": "^17.2.3",
+    "jsdom": "^27.1.0",
+    "postcss": "^8.5.6",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.1",
+    "vitest": "^4.0.7"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "@tanstack/react-query": "^5.90.7",
+    "leaflet": "^1.9.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-hook-form": "^7.68.0",
+    "react-icons": "^5.5.0",
+    "react-leaflet": "^5.0.0",
+    "react-router-dom": "^7.9.5",
+    "tailwindcss": "^4.1.17",
+    "zod": "^4.1.13"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shanehobson/odyssey.git",
+    "directory": "frontend"
+  },
+  "homepage": "https://findmyodyssey.com"
+}

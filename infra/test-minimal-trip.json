@@ -1,0 +1,20 @@
+{
+  "userId": "example-user",
+  "tripId": "test-minimal-001",
+  "intent": "create",
+  "clientVersion": 0,
+  "tripInput": "2 day trip to San Francisco",
+  "preferences": {
+    "dateRange": {
+      "start": "2025-12-15",
+      "end": "2025-12-16"
+    },
+    "include": {
+      "hotels": true,
+      "restaurants": true,
+      "camping": false
+    },
+    "tripPace": "moderate",
+    "budgetLevel": 3
+  }
+}

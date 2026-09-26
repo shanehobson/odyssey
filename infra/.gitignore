@@ -1,0 +1,29 @@
+# Build output (TypeScript is compiled by esbuild/ts-node at deploy time)
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+dist
+lambda/dist
+
+# CDK
+.cdk.staging
+cdk.out
+cdk.context.json
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.cognito-config
+!.cognito-config.example
+
+# Local test artifacts
+jwt-token.txt
+cookies*.txt
+headers.txt
+*.zip
+
+# Tooling / OS
+.claude/
+.DS_Store

@@ -1,0 +1,6 @@
+# Copy to .cognito-config (gitignored). Used by generate-jwt.sh to mint a test ID token.
+USER_POOL_ID=us-west-2_XXXXXXXXX
+CLIENT_ID=xxxxxxxxxxxxxxxxxxxxxxxxxx
+TEST_USERNAME=testuser@example.com
+TEST_PASSWORD=
+AWS_REGION=us-west-2
